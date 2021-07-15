@@ -195,7 +195,7 @@ for (let day of WFore.weatherForecast) { //for each forecast day
     //output the day and date, e.g., Mon 28/6
     let fweek = `<span class="fweek">${day.week.slice(0,3)} ${date}</span>`;
     //output the temp range
-    let ftemp = `<span class="ftemp">${day.forecastMintemp.value}-${day.forecastMaxtemp.value} 簞C</span>`;
+    let ftemp = `<span class="ftemp">${day.forecastMintemp.value}-${day.forecastMaxtemp.value} °C</span>`;
     //output the humidity range
     let fhumid = `<span class="fhumid">${day.forecastMinrh.value}-${day.forecastMaxrh.value} %</span>`;
     //output the forecast weather icon
